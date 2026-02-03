@@ -1,0 +1,33 @@
+{% macro compare_color(val1, val2) %}
+  {% if val1 > val2 %}
+    text-success
+  {% else %}
+    {% if val1 < val2 %}
+    text-danger
+    {% else %}
+    text-secondary
+    {% endif %}
+  {% endif %}
+{% endmacro %}
+
+{% macro datatables(table_ids) %}
+  {% for table_id in table_ids %}
+    <script defer>new DataTable('#{{ table_id }}', {
+      layout: {
+        // top2Start: {searchBuilder: {} },
+        topStart: {search: {} },
+        /*topEnd: {
+          buttons: [{
+            extend: 'colvis'
+          }]
+        }*/
+      },
+      language: {
+        searchBuilder: {
+          title: 'Filter'
+        },
+      fixedHeader: true
+      }
+  });</script>
+  {% endfor %}
+{% endmacro %}

@@ -1,0 +1,54 @@
+name,effect_type,base_cost,permanent
+Arcane Oil,harmful,1,True
+Burning Oil,harmful,1,True
+Chilling Oil,harmful,1,True
+Cleansing,beneficial,1,False
+Constitution,beneficial,1,False
+Damage Health,harmful,1,True
+Damage Maximum Health,harmful,1,False
+Etiolating Oil,harmful,1,True
+Fear,harmful,1,False
+Fortify Alteration,beneficial,1,False
+Fortify Barter,beneficial,1,False
+Fortify Block,beneficial,1,False
+Fortify Carry Weight,beneficial,1,False
+Fortify Conjuration,beneficial,1,False
+Fortify Destruction,beneficial,1,False
+Fortify Dexterity,beneficial,1,False
+Fortify Health,beneficial,1,False
+Fortify Illusion,beneficial,1,False
+Fortify Lockpicking,beneficial,1,False
+Fortify Magicka,beneficial,1,False
+Fortify Marksman,beneficial,1,False
+Fortify One-Handed,beneficial,1,False
+Fortify Restoration,beneficial,1,False
+Fortify Sneak,beneficial,1,False
+Fortify Stamina,beneficial,1,False
+Fortify Two-Handed,beneficial,1,False
+Fortify Unarmed,beneficial,1,False
+Frenzy,harmful,1,False
+Gradual Regenerate Magicka,beneficial,1,False
+Gradual Restore Health,beneficial,1,False
+Gradual Restore Stamina,beneficial,1,False
+Healing,beneficial,1,False
+Impairment,harmful,1,False
+Invisibility,beneficial,1,False
+Lingering Damage Health,harmful,1,True
+Magic Weakness Oil,harmful,1,False
+Magicka,beneficial,1,False
+Paralysis,harmful,1,False
+Recuperation,beneficial,1,False
+Resist Fire,beneficial,1,False
+Resist Frost,beneficial,1,False
+Resist Magic,beneficial,1,False
+Resist Projectiles,beneficial,1,False
+Resist Shock,beneficial,1,False
+Shocking Oil,harmful,1,True
+Soul Trap Oil,harmful,1,False
+Tardiness,harmful,1,False
+Undying Breath,beneficial,1,False
+Vulnerability,harmful,1,False
+Weakness to Fire,harmful,1,False
+Weakness to Frost,harmful,1,False
+Weakness to Poison Oil,harmful,1,False
+Weakness to Shock,harmful,1,False

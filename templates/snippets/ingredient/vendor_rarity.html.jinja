@@ -1,0 +1,11 @@
+{% if ingredient.vendor_rarity == 'common' %}
+<span class="text-success">common</span>
+{% elif ingredient.vendor_rarity == 'uncommon' %}
+<span class="text-warning">uncommon</span>
+{% elif ingredient.vendor_rarity == 'rare' %}
+<span class="text-danger">rare</span>
+{% elif ingredient.vendor_rarity == 'limited' %}
+<span class="text-danger">limited</span>
+{% else %}
+<span class="text-danger">none</span>
+{% endif %}

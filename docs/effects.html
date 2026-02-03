@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Effects
+ - Requiem for a Herb (6.0.2)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <base href="/skyrim-requiem-alchemy/"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.3.0/b-3.2.3/b-colvis-3.2.3/fh-4.0.1/sb-1.8.2/datatables.min.css" rel="stylesheet" integrity="sha384-KjJLw6mk3Jck9YU6enc0tTkxTpc0Q+LlpM6v+8oMQwJYa4eURXJi/Vie0sAITuTr" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+</head>
+<body data-bs-theme="dark" class="container-xxl">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Requiem for a Herb (6.0.2)</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="ingredients">Ingredients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="effects">Effects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="potencies">Potencies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="traits">Traits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="potions">Potions</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>  <header>
+    <h1>Effects
+</h1>
+  </header>
+  <main>
+<section>
+  <table id="effects" data-paging="false" class="table table-hover table-bordered align-middle text-center table-sm">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Effect type</th>
+        <th>Base cost</th>
+        <th>Median magnitude</th>
+        <th>Median duration</th>
+        <th>Median price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><a href="effects/Paralysis">
+Paralysis
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>0.0</td>
+        <td>1</td>
+        <td>0.1</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Soul%20Trap%20Oil">
+Soul Trap Oil
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>0.0</td>
+        <td>4</td>
+        <td>0.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Invisibility">
+Invisibility
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>0.0</td>
+        <td>8</td>
+        <td>0.8</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Lockpicking">
+Fortify Lockpicking
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>0.4</td>
+        <td>30</td>
+        <td>1.2</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Damage%20Health">
+Damage Health
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>12.0</td>
+        <td>1</td>
+        <td>1.2</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Impairment">
+Impairment
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>2.0</td>
+        <td>20</td>
+        <td>4.6</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Cleansing">
+Cleansing
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>5.0</td>
+        <td>0</td>
+        <td>5.9</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fear">
+Fear
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>5.5</td>
+        <td>10</td>
+        <td>6.5</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Barter">
+Fortify Barter
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>2.0</td>
+        <td>30</td>
+        <td>7.2</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Lingering%20Damage%20Health">
+Lingering Damage Health
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>2.2</td>
+        <td>30</td>
+        <td>8.2</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Frenzy">
+Frenzy
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>11.0</td>
+        <td>10</td>
+        <td>14.0</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Weakness%20to%20Poison%20Oil">
+Weakness to Poison Oil
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>5.0</td>
+        <td>30</td>
+        <td>19.7</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Magic%20Weakness%20Oil">
+Magic Weakness Oil
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>16.0</td>
+        <td>10</td>
+        <td>21.1</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Burning%20Oil">
+Burning Oil
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>14.0</td>
+        <td>15</td>
+        <td>28.5</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Shocking%20Oil">
+Shocking Oil
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>15.8</td>
+        <td>15</td>
+        <td>32.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Weakness%20to%20Frost">
+Weakness to Frost
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>24.0</td>
+        <td>10</td>
+        <td>33.0</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Weakness%20to%20Fire">
+Weakness to Fire
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>24.0</td>
+        <td>10</td>
+        <td>33.0</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Weakness%20to%20Shock">
+Weakness to Shock
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>24.0</td>
+        <td>10</td>
+        <td>33.0</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Tardiness">
+Tardiness
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>50.0</td>
+        <td>5</td>
+        <td>34.5</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Arcane%20Oil">
+Arcane Oil
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>17.5</td>
+        <td>15</td>
+        <td>36.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Chilling%20Oil">
+Chilling Oil
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>17.5</td>
+        <td>15</td>
+        <td>36.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Damage%20Maximum%20Health">
+Damage Maximum Health
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>9.0</td>
+        <td>30</td>
+        <td>37.6</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Undying%20Breath">
+Undying Breath
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.0</td>
+        <td>68</td>
+        <td>37.6</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Dexterity">
+Fortify Dexterity
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>5.0</td>
+        <td>60</td>
+        <td>42.2</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Vulnerability">
+Vulnerability
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>12.0</td>
+        <td>30</td>
+        <td>51.5</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Recuperation">
+Recuperation
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>16.0</td>
+        <td>30</td>
+        <td>70.7</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Etiolating%20Oil">
+Etiolating Oil
+</a></th>
+        <td>
+<span class="text-danger">harmful</span>
+        </td>
+        <td>1.0000</td>
+        <td>18.0</td>
+        <td>30</td>
+        <td>80.5</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Resist%20Projectiles">
+Resist Projectiles
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>3.0</td>
+        <td>180</td>
+        <td>80.5</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Resist%20Magic">
+Resist Magic
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>3.2</td>
+        <td>180</td>
+        <td>86.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Marksman">
+Fortify Marksman
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>3.8</td>
+        <td>180</td>
+        <td>102.9</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20One-Handed">
+Fortify One-Handed
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>3.8</td>
+        <td>180</td>
+        <td>102.9</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Two-Handed">
+Fortify Two-Handed
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>3.8</td>
+        <td>180</td>
+        <td>102.9</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Magicka">
+Magicka
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>46.5</td>
+        <td>15</td>
+        <td>106.6</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Conjuration">
+Fortify Conjuration
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.0</td>
+        <td>180</td>
+        <td>110.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Alteration">
+Fortify Alteration
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.0</td>
+        <td>180</td>
+        <td>110.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Restoration">
+Fortify Restoration
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.0</td>
+        <td>180</td>
+        <td>110.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Destruction">
+Fortify Destruction
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.0</td>
+        <td>180</td>
+        <td>110.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Illusion">
+Fortify Illusion
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.0</td>
+        <td>180</td>
+        <td>110.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Block">
+Fortify Block
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>5.0</td>
+        <td>180</td>
+        <td>141.1</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Unarmed">
+Fortify Unarmed
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>5.0</td>
+        <td>180</td>
+        <td>141.1</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Resist%20Frost">
+Resist Frost
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.0</td>
+        <td>240</td>
+        <td>151.5</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Resist%20Shock">
+Resist Shock
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.0</td>
+        <td>240</td>
+        <td>151.5</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Resist%20Fire">
+Resist Fire
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.0</td>
+        <td>240</td>
+        <td>151.5</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Healing">
+Healing
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>100.0</td>
+        <td>20</td>
+        <td>339.7</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Sneak">
+Fortify Sneak
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>3.5</td>
+        <td>600</td>
+        <td>358.9</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Constitution">
+Constitution
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>8.0</td>
+        <td>300</td>
+        <td>415.2</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Health">
+Fortify Health
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>4.8</td>
+        <td>600</td>
+        <td>507.4</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Stamina">
+Fortify Stamina
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>6.4</td>
+        <td>600</td>
+        <td>696.2</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Magicka">
+Fortify Magicka
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>6.4</td>
+        <td>600</td>
+        <td>696.2</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Fortify%20Carry%20Weight">
+Fortify Carry Weight
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>8.0</td>
+        <td>600</td>
+        <td>889.9</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Gradual%20Regenerate%20Magicka">
+Gradual Regenerate Magicka
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>6.0</td>
+        <td>4200</td>
+        <td>5514.9</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Gradual%20Restore%20Health">
+Gradual Restore Health
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>7.0</td>
+        <td>4200</td>
+        <td>6534.0</td>
+      </tr>
+      <tr>
+        <th><a href="effects/Gradual%20Restore%20Stamina">
+Gradual Restore Stamina
+</a></th>
+        <td>
+<span class="text-success">beneficial</span>
+        </td>
+        <td>1.0000</td>
+        <td>16.0</td>
+        <td>4200</td>
+        <td>16222.1</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+  </main>
+  <footer>
+    <small></small>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.3.0/b-3.2.3/b-colvis-3.2.3/fh-4.0.1/sb-1.8.2/datatables.min.js" integrity="sha384-ujqn5cjGMWMp0oujP05IQ1PygVn+WWVyJDLhHW5/ngiOsu04nwtHcJPvTjJW62NV" crossorigin="anonymous"></script>
+<script defer>new DataTable('#effects', {
+  fixedHeader: true,
+  layout: {
+    // top2Start: {searchBuilder: {} },
+    // topStart: {search: {} },
+    /*topEnd: {
+      buttons: [{
+        extend: 'colvis'
+      }]
+    }*/
+  },
+  /*language: {
+    searchBuilder: {
+      title: 'Filter this table'
+    }
+  }*/
+});</script></body>
+</html>
+
+
+ 

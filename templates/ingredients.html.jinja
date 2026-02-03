@@ -1,0 +1,43 @@
+{% extends "default.html.jinja" %}
+{% block title %}
+Ingredients
+{% endblock title %}
+{% block content %}
+<section>
+  <table id="ingredients" data-paging="false"
+    class="table table-hover table-bordered align-middle text-center table-sm">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Value</th>
+        <th>Plantable</th>
+        <th>Vendor Rarity</th>
+        <th>Unique to</th>
+        <th>Average potency price</th>
+        <th>Accessibility</th>
+        <th>Average potion price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for ingredient in data.ingredients %}
+      <tr>
+        <th>{% include "snippets/ingredient/link.html.jinja" %}</th>
+        <td>{{ ingredient.value }}</td>
+        <td>{% include "snippets/ingredient/plantable.html.jinja" %}</td>
+        <td>{% include "snippets/ingredient/vendor_rarity.html.jinja" %}</td>
+        <td>{{ ingredient.unique_to | string }}</td>
+        <td>{{ ingredient.average_potency_price | round(1) }}</td>
+        <td>{{ ingredient.accessibility | round(1) }}</td>
+        <td>{{ ingredient.average_potion_price | round(1) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock content %}
+
+
+{% block additional_scripts %}
+{% set datatable_id = 'ingredients' %}
+{% include "snippets/datatables.html.jinja" %}
+{% endblock additional_scripts %}

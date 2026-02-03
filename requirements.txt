@@ -1,0 +1,11 @@
+attrs==25.3.0
+beautifulsoup4==4.13.4
+isort==6.0.1
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+pdoc==15.0.3
+Pygments==2.19.1
+python-call-graph==2.1.3
+-e git+https://github.com/mihnea-mihai/skyrim-requiem-alchemy.git@2c5f88377ab3c66401ebb2746d6ca8e819889074#egg=skyrim_alchemy
+soupsieve==2.7
+typing_extensions==4.14.0

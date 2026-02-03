@@ -1,0 +1,39 @@
+{% extends "default.html.jinja" %}
+{% block title %}
+Effects
+{% endblock title %}
+{% block content %}
+<section>
+  <table id="effects" data-paging="false" class="table table-hover table-bordered align-middle text-center table-sm">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Effect type</th>
+        <th>Base cost</th>
+        <th>Median magnitude</th>
+        <th>Median duration</th>
+        <th>Median price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for effect in data.effects %}
+      <tr>
+        <th>{% include "snippets/effect/link.html.jinja" %}</th>
+        <td>
+          {% include "snippets/effect/effect_type.html.jinja" %}
+        </td>
+        <td>{{ "%.4f" | format(effect.base_cost) }}</td>
+        <td>{{ "%.1f" | format(effect.median_magnitude) }}</td>
+        <td>{{ "%.0f" | format(effect.median_duration) }}</td>
+        <td>{{ "%.1f" | format(effect.median_price) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock content %}
+
+{% block additional_scripts %}
+{% set datatable_id = 'effects' %}
+{% include "snippets/datatables.html.jinja" %}
+{% endblock additional_scripts %}

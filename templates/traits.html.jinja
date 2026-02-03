@@ -1,0 +1,65 @@
+{% extends "default.html.jinja" %}
+{% block title %}
+Traits
+{% endblock title %}
+{% block content %}
+  <section>
+    <table id="traits" data-paging="false" 
+    class="table table-hover table-bordered align-middle text-center table-sm">
+      <thead>
+        <tr>
+          <th colspan="5">Ingredient</th>
+          <th colspan="3">Effect</th>
+          <th rowspan="2">Order</th>
+          <th rowspan="2">Magnitude</th>
+          <th rowspan="2">Duration</th>
+          <th rowspan="2">Price</th>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+          <th>Plantable</th>
+          <th>Vendor rarity</th>
+          <th>Unique to</th>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Base cost</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for trait in data.traits 
+          | sort(attribute='ingredient.name')
+          | sort(attribute='order') %}
+        <tr>
+          {% set ingredient = trait.ingredient %}
+          <td>{% include "snippets/ingredient/link.html.jinja" %}</td>
+          <td>{{ ingredient.value }}</td>
+          <td>{% include "snippets/ingredient/plantable.html.jinja" %}</td>
+          <td>{% include "snippets/ingredient/vendor_rarity.html.jinja" %}</td>
+          <td>{{ ingredient.unique_to | string }}</td>
+          {% set effect = trait.potency.effect %}
+          <td>{% include "snippets/effect/link.html.jinja" %}</td>
+          <td>{% include "snippets/effect/effect_type.html.jinja" %}</td>
+          <td>{{ "%.4f" | format(effect.base_cost) }}</td>
+          <td>{{ trait.order }}</td>
+          {% set potency = trait.potency %}
+          <td data-sort="{{ potency.magnitude }}">
+          {% include "snippets/potency/magnitude.html.jinja" %}
+          </td>
+          <td data-sort="{{ potency.duration }}">
+          {% include "snippets/potency/duration.html.jinja" %}
+          </td>
+          <td data-sort="{{ potency.price }}">
+          {% include "snippets/potency/price.html.jinja" %}
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+{% endblock content %}
+
+
+{% block additional_scripts %}
+{{ macros.datatables(['traits']) }}
+{% endblock additional_scripts %}

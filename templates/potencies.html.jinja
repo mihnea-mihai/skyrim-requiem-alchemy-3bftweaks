@@ -1,0 +1,51 @@
+{% extends "default.html.jinja" %}
+{% block title %}
+Potencies
+{% endblock title %}
+{% block content %}
+<section>
+  <table id="potencies" data-paging="false" class="table table-hover table-bordered align-middle text-center table-sm">
+    <thead>
+      <tr>
+        <th>Effect</th>
+        <th>Magnitude</th>
+        <th>Duration</th>
+        <th>Price</th>
+        <th>Min potion accessibility</th>
+        <th>Average potion accessibility</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for potency in data.potencies | selectattr('potions') | sort(attribute='effect.name')
+      | sort(attribute='price', reverse=True) %}
+      <tr>
+        <th>
+          {% include "snippets/potency/link.html.jinja" %}
+        </th>
+        <td data-sort="{{ potency.magnitude }}">
+          {% include "snippets/potency/magnitude.html.jinja" %}
+        </td>
+        <td data-sort="{{ potency.duration }}">
+          {% include "snippets/potency/duration.html.jinja" %}
+        </td>
+        <td data-sort="{{ potency.price }}">
+          {% include "snippets/potency/price.html.jinja" %}
+        </td>
+        <td>
+          {{ potency.min_potion_accessibility | round(1) }}
+        </td>
+        <td>
+          {{ potency.average_potion_accessibility | round(1) }}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock content %}
+
+
+{% block additional_scripts %}
+{% set datatable_id = 'potencies' %}
+{% include "snippets/datatables.html.jinja" %}
+{% endblock additional_scripts %}

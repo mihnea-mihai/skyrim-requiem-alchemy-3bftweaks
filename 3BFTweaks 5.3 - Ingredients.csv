@@ -1,0 +1,473 @@
+ingredient_name,effect_name,magnitude,duration,order
+Abecean Longfin,Fortify Restoration,"4,00",180,1
+Abecean Longfin,Fortify Sneak,"4,00",600,2
+Abecean Longfin,Weakness to Frost,"24,00",10,3
+Abecean Longfin,Weakness to Poison Oil,"5,00",30,4
+Ancestor Moth Wing,Chilling Oil,"17,50",15,1
+Ancestor Moth Wing,Fortify Conjuration,"4,00",180,2
+Ancestor Moth Wing,Fortify Magicka,"6,40",600,3
+Ancestor Moth Wing,Impairment,"2,25",20,4
+Ash Creep Cluster,Chilling Oil,"14,00",15,1
+Ash Creep Cluster,Fortify Destruction,"4,00",180,2
+Ash Creep Cluster,Invisibility,"0,00",5,3
+Ash Creep Cluster,Resist Fire,"4,00",240,4
+Ash Hopper Jelly,Healing,"120,00",20,1
+Ash Hopper Jelly,Resist Projectiles,"3,60",180,2
+Ash Hopper Jelly,Resist Shock,"4,00",60,3
+Ash Hopper Jelly,Weakness to Frost,"24,00",10,4
+Ashen Grass Pod,Fortify Lockpicking,"0,40",30,1
+Ashen Grass Pod,Fortify Sneak,"3,00",600,2
+Ashen Grass Pod,Resist Fire,"4,00",180,3
+Ashen Grass Pod,Weakness to Shock,"24,00",10,4
+Bear Heart,Fortify Destruction,"4,00",180,1
+Bear Heart,Fortify Health,"4,80",600,2
+Bear Heart,Fortify Unarmed,"5,00",180,3
+Bear Heart,Frenzy,"13,00",10,4
+Bee,Gradual Restore Stamina,"19,00",4200,1
+Bee,Recuperation,"16,00",30,2
+Bee,Soul Trap Oil,"0,00",3,3
+Bee,Weakness to Shock,"24,00",10,4
+Beehive Husk,Constitution,"8,00",300,1
+Beehive Husk,Fortify Destruction,"4,00",180,2
+Beehive Husk,Fortify Sneak,"3,00",600,3
+Beehive Husk,Resist Projectiles,"3,00",180,4
+Bleeding Crown,Fortify Block,"5,00",180,1
+Bleeding Crown,Resist Magic,"2,80",180,2
+Bleeding Crown,Weakness to Fire,"24,00",10,3
+Bleeding Crown,Weakness to Poison Oil,"6,00",30,4
+Blisterwort,Chilling Oil,"14,00",15,1
+Blisterwort,Frenzy,"11,00",10,2
+Blisterwort,Gradual Restore Stamina,"16,00",4200,3
+Blisterwort,Healing,"120,00",10,4
+Blue Butterfly Wing,Chilling Oil,"14,00",15,1
+Blue Butterfly Wing,Fortify Conjuration,"3,00",60,2
+Blue Butterfly Wing,Fortify Illusion,"4,00",180,3
+Blue Butterfly Wing,Impairment,"2,00",20,4
+Blue Dartwing,Fear,"5,50",10,1
+Blue Dartwing,Fortify Dexterity,"5,00",60,2
+Blue Dartwing,Healing,"100,00",20,3
+Blue Dartwing,Resist Shock,"4,00",180,4
+Blue Glitterdust,Chilling Oil,"24,25",15,1
+Blue Glitterdust,Cleansing,"1,00",0,2
+Blue Glitterdust,Constitution,"10,00",300,3
+Blue Glitterdust,Undying Breath,"4,00",300,4
+Blue Mountain Flower,Fortify Conjuration,"4,00",180,1
+Blue Mountain Flower,Fortify Health,"3,20",600,2
+Blue Mountain Flower,Healing,"100,00",20,3
+Blue Mountain Flower,Impairment,"1,75",20,4
+Boar Tusk,Fortify Block,"5,00",180,1
+Boar Tusk,Fortify Health,"4,80",600,2
+Boar Tusk,Fortify Stamina,"6,40",600,3
+Boar Tusk,Frenzy,"11,00",10,4
+Bone Meal,Chilling Oil,"10,50",15,1
+Bone Meal,Fortify Conjuration,"4,00",180,2
+Bone Meal,Resist Fire,"4,00",240,3
+Bone Meal,Soul Trap Oil,"0,00",3,4
+Briar Heart,Fortify Block,"6,00",180,1
+Briar Heart,Fortify Magicka,"6,40",600,2
+Briar Heart,Magicka,"51,00",15,3
+Briar Heart,Paralysis,"0,00",1,4
+Burnt Spriggan Wood,Fortify Alteration,"4,00",180,1
+Burnt Spriggan Wood,Impairment,"2,25",20,2
+Burnt Spriggan Wood,Tardiness,"50,00",5,3
+Burnt Spriggan Wood,Weakness to Fire,"24,00",10,4
+Butterfly Wing,Arcane Oil,"14,00",15,1
+Butterfly Wing,Burning Oil,"10,50",10,2
+Butterfly Wing,Fortify Barter,"2,00",30,3
+Butterfly Wing,Healing,"100,00",20,4
+Canis Root,Chilling Oil,"20,75",15,1
+Canis Root,Damage Health,"18,00",1,2
+Canis Root,Fortify Marksman,"3,75",180,3
+Canis Root,Fortify One-Handed,"3,75",180,4
+Charred Skeever Hide,Constitution,"8,00",300,1
+Charred Skeever Hide,Healing,"100,00",20,2
+Charred Skeever Hide,Recuperation,"16,00",30,3
+Charred Skeever Hide,Undying Breath,"4,00",75,4
+Chaurus Eggs,Burning Oil,"14,00",15,1
+Chaurus Eggs,Fortify Stamina,"6,40",600,2
+Chaurus Eggs,Invisibility,"0,00",6,3
+Chaurus Eggs,Weakness to Poison Oil,"5,00",30,4
+Chicken's Egg,Arcane Oil,"17,50",15,1
+Chicken's Egg,Impairment,"1,75",20,2
+Chicken's Egg,Resist Magic,"3,20",180,3
+Chicken's Egg,Undying Breath,"4,00",60,4
+Claws,Gradual Restore Stamina,"16,00",4200,1
+Claws,Impairment,"2,00",20,2
+Claws,Recuperation,"16,00",30,3
+Claws,Resist Projectiles,"3,00",180,4
+Creep Cluster,Fortify Carry Weight,"8,00",600,1
+Creep Cluster,Magic Weakness Oil,"16,00",10,2
+Creep Cluster,Magicka,"40,00",15,3
+Creep Cluster,Vulnerability,"12,00",30,4
+Crimson Nirnroot,Chilling Oil,"20,75",15,1
+Crimson Nirnroot,Damage Health,"17,50",1,2
+Crimson Nirnroot,Invisibility,"0,00",17,3
+Crimson Nirnroot,Resist Magic,"3,20",180,4
+Cyrodilic Spadetail,Chilling Oil,"14,00",15,1
+Cyrodilic Spadetail,Damage Maximum Health,"10,00",30,2
+Cyrodilic Spadetail,Fear,"5,50",10,3
+Cyrodilic Spadetail,Fortify Restoration,"4,00",180,4
+Daedra Heart,Healing,"10000,00",1,1
+Daedra Heart,Lingering Damage Health,"18,00",30,2
+Daedra Heart,Magicka,"15000,00",2,3
+Daedra Heart,Recuperation,"10000,00",1,4
+Deathbell,Damage Health,"12,00",1,1
+Deathbell,Soul Trap Oil,"0,00",4,2
+Deathbell,Tardiness,"50,00",5,3
+Deathbell,Weakness to Poison Oil,"5,00",30,4
+Dragon's Tongue,Fortify Barter,"2,00",60,1
+Dragon's Tongue,Fortify Illusion,"4,00",180,2
+Dragon's Tongue,Fortify Two-Handed,"3,75",180,3
+Dragon's Tongue,Resist Fire,"4,00",240,4
+Dwarven Oil,Fortify Illusion,"4,00",180,1
+Dwarven Oil,Gradual Regenerate Magicka,"6,00",4200,2
+Dwarven Oil,Magic Weakness Oil,"16,00",10,3
+Dwarven Oil,Magicka,"45,00",15,4
+Ectoplasm,Damage Health,"12,00",1,1
+Ectoplasm,Fortify Destruction,"4,00",180,2
+Ectoplasm,Fortify Magicka,"6,40",600,3
+Ectoplasm,Magicka,"49,00",15,4
+Elves Ear,Fortify Marksman,"3,75",180,1
+Elves Ear,Magicka,"40,00",15,2
+Elves Ear,Resist Fire,"4,00",240,3
+Elves Ear,Weakness to Frost,"24,00",10,4
+Emperor Parasol Moss,Damage Health,"10,00",1,1
+Emperor Parasol Moss,Fortify Two-Handed,"3,75",180,2
+Emperor Parasol Moss,Gradual Regenerate Magicka,"5,00",4200,3
+Emperor Parasol Moss,Gradual Restore Health,"7,00",4200,4
+Falmer Ear,Constitution,"8,00",300,1
+Falmer Ear,Damage Health,"12,00",1,2
+Falmer Ear,Fortify Lockpicking,"0,26",30,3
+Falmer Ear,Frenzy,"11,00",10,4
+Felsaad Osprey Feathers,Constitution,"8,00",300,1
+Felsaad Osprey Feathers,Healing,"125,00",20,2
+Felsaad Osprey Feathers,Resist Magic,"3,20",180,3
+Felsaad Osprey Feathers,Resist Projectiles,"3,60",180,4
+Fire Salts,Gradual Regenerate Magicka,"6,00",4200,1
+Fire Salts,Magicka,"52,00",15,2
+Fire Salts,Resist Fire,"6,00",300,3
+Fire Salts,Weakness to Frost,"30,00",10,4
+Fly Amanita,Fortify Two-Handed,"3,75",180,1
+Fly Amanita,Frenzy,"11,00",10,2
+Fly Amanita,Gradual Restore Stamina,"16,00",4200,3
+Fly Amanita,Resist Fire,"4,00",240,4
+Frost Mirriam,Etiolating Oil,"18,00",30,1
+Frost Mirriam,Fortify Sneak,"4,00",600,2
+Frost Mirriam,Resist Frost,"4,00",240,3
+Frost Mirriam,Vulnerability,"12,00",30,4
+Frost Salts,Fortify Conjuration,"4,00",180,1
+Frost Salts,Magicka,"52,50",15,2
+Frost Salts,Resist Frost,"6,00",300,3
+Frost Salts,Weakness to Fire,"30,00",10,4
+Garlic,Constitution,"8,00",300,1
+Garlic,Fortify Stamina,"6,40",600,2
+Garlic,Gradual Regenerate Magicka,"8,00",4200,3
+Garlic,Gradual Restore Health,"6,00",4200,4
+Giant Lichen,Damage Maximum Health,"8,00",30,1
+Giant Lichen,Magicka,"40,00",15,2
+Giant Lichen,Weakness to Poison Oil,"4,00",30,3
+Giant Lichen,Weakness to Shock,"24,00",10,4
+Giant's Toe,Chilling Oil,"17,50",15,1
+Giant's Toe,Fortify Carry Weight,"8,00",600,2
+Giant's Toe,Fortify Health,"4,80",600,3
+Giant's Toe,Vulnerability,"12,00",30,4
+Gleambossom,Fear,"5,50",10,1
+Gleambossom,Gradual Restore Health,"7,00",4200,2
+Gleambossom,Paralysis,"0,00",1,3
+Gleambossom,Resist Magic,"3,20",180,4
+Glow Dust,Burning Oil,"14,00",15,1
+Glow Dust,Fortify Destruction,"4,00",180,2
+Glow Dust,Impairment,"2,25",20,3
+Glow Dust,Resist Shock,"4,80",180,4
+Glowing Mushroom,Fortify Destruction,"4,00",180,1
+Glowing Mushroom,Fortify Health,"4,80",600,2
+Glowing Mushroom,Fortify Stamina,"6,40",600,3
+Glowing Mushroom,Resist Shock,"4,00",240,4
+Grass Pod,Constitution,"5,00",300,1
+Grass Pod,Etiolating Oil,"13,50",30,2
+Grass Pod,Fortify Alteration,"4,00",180,3
+Grass Pod,Magicka,"40,00",15,4
+Hagraven Claw,Fortify Illusion,"4,00",180,1
+Hagraven Claw,Resist Magic,"2,80",180,2
+Hagraven Claw,Shocking Oil,"20,75",15,3
+Hagraven Claw,Soul Trap Oil,"0,00",5,4
+Hagraven Feathers,Burning Oil,"14,00",15,1
+Hagraven Feathers,Fortify Conjuration,"4,00",180,2
+Hagraven Feathers,Frenzy,"11,00",10,3
+Hagraven Feathers,Weakness to Shock,"24,00",10,4
+Hanging Moss,Burning Oil,"14,00",15,1
+Hanging Moss,Fortify Health,"4,80",600,2
+Hanging Moss,Fortify One-Handed,"3,75",180,3
+Hanging Moss,Impairment,"2,00",20,4
+Hawk Beak,Fortify Carry Weight,"8,00",600,1
+Hawk Beak,Recuperation,"16,00",30,2
+Hawk Beak,Resist Frost,"4,00",240,3
+Hawk Beak,Resist Shock,"5,00",240,4
+Hawk Feathers,Cleansing,"100,00",0,1
+Hawk Feathers,Fortify One-Handed,"3,75",180,2
+Hawk Feathers,Fortify Sneak,"4,00",600,3
+Hawk Feathers,Resist Projectiles,"3,00",180,4
+Hawk's Egg,Arcane Oil,"17,50",15,1
+Hawk's Egg,Impairment,"2,00",20,2
+Hawk's Egg,Resist Magic,"3,20",180,3
+Hawk's Egg,Undying Breath,"4,00",60,4
+Heart,Burning Oil,"10,50",15,1
+Heart,Damage Health,"14,00",1,2
+Heart,Frenzy,"13,00",10,3
+Heart,Impairment,"2,25",20,4
+Histcarp,Fortify Magicka,"6,40",600,1
+Histcarp,Recuperation,"16,00",30,2
+Histcarp,Undying Breath,"4,00",75,3
+Histcarp,Vulnerability,"12,00",30,4
+Honeycomb,Fortify Block,"5,00",180,1
+Honeycomb,Recuperation,"20,00",30,2
+Honeycomb,Resist Projectiles,"3,00",180,3
+Honeycomb,Soul Trap Oil,"0,00",2,4
+Horker Fat,Arcane Oil,"14,00",15,1
+Horker Fat,Etiolating Oil,"15,00",30,2
+Horker Fat,Fortify Marksman,"3,75",180,3
+Horker Fat,Undying Breath,"4,00",60,4
+Human Flesh,Damage Health,"12,00",1,1
+Human Flesh,Fortify Sneak,"5,00",600,2
+Human Flesh,Magicka,"51,00",15,3
+Human Flesh,Paralysis,"0,00",1,4
+Ice Wraith Teeth,Invisibility,"0,00",5,1
+Ice Wraith Teeth,Soul Trap Oil,"0,00",3,2
+Ice Wraith Teeth,Weakness to Fire,"24,00",10,3
+Ice Wraith Teeth,Weakness to Frost,"24,00",10,4
+Imp Stool,Damage Health,"10,00",1,1
+Imp Stool,Fortify Carry Weight,"5,00",60,2
+Imp Stool,Healing,"100,00",20,3
+Imp Stool,Lingering Damage Health,"2,00",30,4
+Jarrin Root,Burning Oil,"115,00",15,1
+Jarrin Root,Chilling Oil,"115,00",15,2
+Jarrin Root,Damage Health,"750,00",1,3
+Jarrin Root,Impairment,"5,00",20,4
+Jazbay Grapes,Damage Maximum Health,"10,00",30,1
+Jazbay Grapes,Fortify Magicka,"5,60",600,2
+Jazbay Grapes,Gradual Regenerate Magicka,"5,00",4200,3
+Jazbay Grapes,Magic Weakness Oil,"16,00",10,4
+Juniper Berries,Fortify Marksman,"3,75",180,1
+Juniper Berries,Gradual Restore Health,"6,00",4200,2
+Juniper Berries,Vulnerability,"12,00",30,3
+Juniper Berries,Weakness to Fire,"10,00",10,4
+Large Antlers,Fortify Stamina,"6,40",600,1
+Large Antlers,Fortify Unarmed,"5,00",180,2
+Large Antlers,Recuperation,"20,00",30,3
+Large Antlers,Tardiness,"50,00",5,4
+Lavender,Etiolating Oil,"13,50",30,1
+Lavender,Fortify Conjuration,"4,00",180,2
+Lavender,Fortify Stamina,"6,40",600,3
+Lavender,Resist Magic,"2,80",180,4
+Luna Moth Wing,Burning Oil,"17,50",15,1
+Luna Moth Wing,Gradual Restore Health,"7,00",4200,2
+Luna Moth Wing,Invisibility,"0,00",5,3
+Luna Moth Wing,Resist Projectiles,"3,00",180,4
+Mammoth Hearth,Fortify Carry Weight,"12,00",600,1
+Mammoth Hearth,Fortify Health,"5,40",600,2
+Mammoth Hearth,Fortify Stamina,"8,00",600,3
+Mammoth Hearth,Resist Projectiles,"4,00",180,4
+Moon Sugar,Gradual Regenerate Magicka,"6,00",4200,1
+Moon Sugar,Magicka,"57,00",15,2
+Moon Sugar,Resist Frost,"4,80",180,3
+Moon Sugar,Weakness to Fire,"12,00",10,4
+Mora Tapinella,Fortify Illusion,"4,00",180,1
+Mora Tapinella,Gradual Restore Stamina,"16,00",4200,2
+Mora Tapinella,Lingering Damage Health,"2,00",30,3
+Mora Tapinella,Magicka,"45,00",15,4
+Mudcrab Chitin,Constitution,"8,00",300,1
+Mudcrab Chitin,Recuperation,"16,00",30,2
+Mudcrab Chitin,Resist Fire,"4,00",60,3
+Mudcrab Chitin,Resist Shock,"4,00",60,4
+Namira's Rot,Burning Oil,"14,00",15,1
+Namira's Rot,Fear,"5,50",10,2
+Namira's Rot,Fortify Lockpicking,"0,40",30,3
+Namira's Rot,Gradual Restore Health,"6,00",4200,4
+Netch Jelly,Damage Health,"15,00",1,1
+Netch Jelly,Fear,"7,00",10,2
+Netch Jelly,Fortify Carry Weight,"8,00",600,3
+Netch Jelly,Recuperation,"16,00",30,4
+Nightshade,Arcane Oil,"21,00",15,1
+Nightshade,Damage Health,"10,00",1,2
+Nightshade,Fortify Destruction,"4,00",180,3
+Nightshade,Impairment,"1,75",20,4
+Nirnroot,Chilling Oil,"17,50",15,1
+Nirnroot,Damage Health,"15,00",0,2
+Nirnroot,Invisibility,"0,00",10,3
+Nirnroot,Resist Magic,"3,20",180,4
+Nordic Barnacle,Burning Oil,"17,50",15,1
+Nordic Barnacle,Fortify Dexterity,"5,00",60,2
+Nordic Barnacle,Gradual Restore Health,"7,00",4200,3
+Nordic Barnacle,Undying Breath,"4,00",60,4
+Orange Dartwing,Etiolating Oil,"18,00",30,1
+Orange Dartwing,Fortify Dexterity,"5,00",60,2
+Orange Dartwing,Lingering Damage Health,"2,00",30,3
+Orange Dartwing,Recuperation,"16,00",30,4
+Pearl,Fortify Block,"5,00",180,1
+Pearl,Magicka,"43,00",15,2
+Pearl,Recuperation,"20,00",30,3
+Pearl,Resist Shock,"4,00",240,4
+Pine Thrush Egg,Fortify Lockpicking,"0,42",30,1
+Pine Thrush Egg,Recuperation,"16,00",30,2
+Pine Thrush Egg,Resist Shock,"4,00",240,3
+Pine Thrush Egg,Weakness to Poison Oil,"6,00",30,4
+Poisonous Bloom,Damage Health,"14,00",1,1
+Poisonous Bloom,Fear,"7,00",10,2
+Poisonous Bloom,Fortify Carry Weight,"8,00",600,3
+Poisonous Bloom,Tardiness,"50,00",5,4
+Powdered Mammoth Tusk,Fear,"7,00",10,1
+Powdered Mammoth Tusk,Fortify Sneak,"3,00",600,2
+Powdered Mammoth Tusk,Fortify Unarmed,"5,00",180,3
+Powdered Mammoth Tusk,Recuperation,"20,00",30,4
+Purple Mountain Flower,Fortify Sneak,"3,00",600,1
+Purple Mountain Flower,Recuperation,"16,00",30,2
+Purple Mountain Flower,Resist Frost,"4,00",240,3
+Purple Mountain Flower,Shocking Oil,"10,50",15,4
+Red Glitterdust,Chilling Oil,"24,25",15,1
+Red Glitterdust,Damage Health,"18,00",0,2
+Red Glitterdust,Fortify Carry Weight,"8,00",600,3
+Red Glitterdust,Magicka,"54,00",15,4
+Red Mountain Flower,Damage Health,"7,00",1,1
+Red Mountain Flower,Etiolating Oil,"13,50",30,2
+Red Mountain Flower,Fortify Magicka,"6,40",600,3
+Red Mountain Flower,Magicka,"40,00",15,4
+River Betty,Damage Health,"12,00",0,1
+River Betty,Fortify Alteration,"4,00",180,2
+River Betty,Fortify Carry Weight,"8,00",600,3
+River Betty,Tardiness,"50,00",5,4
+Rock Warbler Egg,Chilling Oil,"14,00",15,1
+Rock Warbler Egg,Fortify One-Handed,"3,75",180,2
+Rock Warbler Egg,Healing,"100,00",20,3
+Rock Warbler Egg,Magic Weakness Oil,"16,00",10,4
+Sabre Cat Eye,Burning Oil,"14,00",15,1
+Sabre Cat Eye,Damage Maximum Health,"8,00",30,2
+Sabre Cat Eye,Healing,"100,00",20,3
+Sabre Cat Eye,Recuperation,"16,00",30,4
+Sabre Cat Heart,Damage Maximum Health,"8,00",30,1
+Sabre Cat Heart,Impairment,"2,25",20,2
+Sabre Cat Heart,Shocking Oil,"14,00",15,3
+Sabre Cat Heart,Soul Trap Oil,"0,00",4,4
+Sabre Cat Tooth,Fortify Stamina,"6,40",600,1
+Sabre Cat Tooth,Recuperation,"16,00",30,2
+Sabre Cat Tooth,Resist Projectiles,"3,00",180,3
+Sabre Cat Tooth,Weakness to Poison Oil,"6,00",30,4
+Salmon Roe,Fortify Magicka,"6,40",600,1
+Salmon Roe,Gradual Regenerate Magicka,"5,00",4200,2
+Salmon Roe,Recuperation,"16,00",30,3
+Salmon Roe,Undying Breath,"4,00",75,4
+Salt Pile,Fortify Restoration,"4,00",180,1
+Salt Pile,Gradual Regenerate Magicka,"5,00",4200,2
+Salt Pile,Magic Weakness Oil,"16,00",10,3
+Salt Pile,Tardiness,"50,00",5,4
+Scaly Pholiota,Fortify Carry Weight,"8,00",600,1
+Scaly Pholiota,Fortify Illusion,"4,00",180,2
+Scaly Pholiota,Gradual Restore Stamina,"19,00",4200,3
+Scaly Pholiota,Magic Weakness Oil,"16,00",10,4
+Scathecraw,Damage Maximum Health,"10,00",30,1
+Scathecraw,Etiolating Oil,"18,00",30,2
+Scathecraw,Lingering Damage Health,"2,50",30,3
+Scathecraw,Soul Trap Oil,"0,00",3,4
+Silverside Perch,Damage Maximum Health,"10,00",30,1
+Silverside Perch,Recuperation,"16,00",30,2
+Silverside Perch,Resist Frost,"3,00",60,3
+Silverside Perch,Vulnerability,"12,00",30,4
+Skeever Tail,Damage Health,"12,00",1,1
+Skeever Tail,Damage Maximum Health,"8,00",30,2
+Skeever Tail,Resist Projectiles,"3,00",180,3
+Skeever Tail,Vulnerability,"12,00",30,4
+Slaughterfish Egg,Constitution,"8,00",300,1
+Slaughterfish Egg,Fortify Dexterity,"5,00",60,2
+Slaughterfish Egg,Fortify Stamina,"6,40",600,3
+Slaughterfish Egg,Lingering Damage Health,"2,50",30,4
+Slaughterfish Scales,Fortify Block,"5,00",180,1
+Slaughterfish Scales,Lingering Damage Health,"2,00",30,2
+Slaughterfish Scales,Resist Frost,"4,00",240,3
+Slaughterfish Scales,Resist Projectiles,"3,60",180,4
+Small Antlers,Arcane Oil,"17,50",15,1
+Small Antlers,Damage Health,"12,00",1,2
+Small Antlers,Fortify Restoration,"4,00",180,3
+Small Antlers,Weakness to Poison Oil,"1,00",30,4
+Small Pearl,Fortify One-Handed,"3,75",180,1
+Small Pearl,Fortify Restoration,"4,00",180,2
+Small Pearl,Recuperation,"16,00",30,3
+Small Pearl,Resist Frost,"4,00",240,4
+Snowberries,Gradual Restore Stamina,"16,00",4200,1
+Snowberries,Resist Fire,"4,00",240,2
+Snowberries,Resist Frost,"4,00",240,3
+Snowberries,Resist Shock,"4,00",240,4
+Spawn Ash,Etiolating Oil,"22,50",30,1
+Spawn Ash,Fortify Illusion,"4,00",180,2
+Spawn Ash,Resist Fire,"4,00",240,3
+Spawn Ash,Soul Trap Oil,"0,00",2,4
+Spider Egg,Chilling Oil,"17,50",15,1
+Spider Egg,Fortify Lockpicking,"0,40",30,2
+Spider Egg,Fortify Marksman,"3,75",180,3
+Spider Egg,Impairment,"1,75",20,4
+Spriggan Sap,Fortify Alteration,"4,00",180,1
+Spriggan Sap,Fortify Illusion,"3,00",60,2
+Spriggan Sap,Fortify Restoration,"3,00",60,3
+Spriggan Sap,Impairment,"2,25",20,4
+Strange Remains,Fortify Destruction,"4,50",300,1
+Strange Remains,Invisibility,"0,00",60,2
+Strange Remains,Resist Shock,"4,80",240,3
+Strange Remains,Soul Trap Oil,"0,00",10,4
+Swamp Fungal Pod,Damage Health,"13,00",1,1
+Swamp Fungal Pod,Healing,"110,00",20,2
+Swamp Fungal Pod,Resist Shock,"4,00",240,3
+Swamp Fungal Pod,Shocking Oil,"17,50",15,4
+Taproot,Fortify Illusion,"4,00",180,1
+Taproot,Gradual Regenerate Magicka,"6,00",4200,2
+Taproot,Magic Weakness Oil,"16,00",10,3
+Taproot,Magicka,"48,00",15,4
+Thistle Branch,Constitution,"8,00",300,1
+Thistle Branch,Resist Frost,"4,00",240,2
+Thistle Branch,Resist Projectiles,"3,00",180,3
+Thistle Branch,Soul Trap Oil,"0,00",4,4
+Torchbug Thorax,Fortify Stamina,"6,40",600,1
+Torchbug Thorax,Magic Weakness Oil,"16,00",10,2
+Torchbug Thorax,Recuperation,"16,00",30,3
+Torchbug Thorax,Shocking Oil,"17,50",15,4
+Trama Root,Burning Oil,"17,50",15,1
+Trama Root,Fortify Carry Weight,"8,00",600,2
+Trama Root,Tardiness,"50,00",5,3
+Trama Root,Weakness to Shock,"24,00",10,4
+Troll Fat,Constitution,"8,00",300,1
+Troll Fat,Damage Health,"12,00",1,2
+Troll Fat,Fortify Two-Handed,"3,75",180,3
+Troll Fat,Frenzy,"11,00",10,4
+Tundra Cotton,Fortify Barter,"2,00",30,1
+Tundra Cotton,Fortify Block,"5,00",180,2
+Tundra Cotton,Fortify Magicka,"6,40",600,3
+Tundra Cotton,Resist Magic,"2,80",180,4
+Vampire Dust,Cleansing,"5,00",0,1
+Vampire Dust,Fortify Unarmed,"5,00",180,2
+Vampire Dust,Invisibility,"0,00",20,3
+Vampire Dust,Soul Trap Oil,"0,00",7,4
+Venomous Spittle,Arcane Oil,"20,75",15,1
+Venomous Spittle,Damage Health,"18,00",1,2
+Venomous Spittle,Lingering Damage Health,"2,50",30,3
+Venomous Spittle,Paralysis,"0,00",1,4
+Void Salts,Fortify Magicka,"8,00",600,1
+Void Salts,Resist Magic,"3,20",300,2
+Void Salts,Resist Shock,"6,00",300,3
+Void Salts,Weakness to Shock,"32,00",10,4
+Wheat,Fortify Health,"3,20",600,1
+Wheat,Healing,"100,00",20,2
+Wheat,Shocking Oil,"14,00",15,3
+Wheat,Vulnerability,"12,00",30,4
+White Cap,Etiolating Oil,"22,50",30,1
+White Cap,Magicka,"45,00",15,2
+White Cap,Resist Projectiles,"3,00",180,3
+White Cap,Weakness to Frost,"10,00",10,4
+Wisp Wrappings,Fortify Carry Weight,"8,00",600,1
+Wisp Wrappings,Fortify Destruction,"4,00",180,2
+Wisp Wrappings,Resist Magic,"3,60",180,3
+Wisp Wrappings,Soul Trap Oil,"0,00",5,4
+Wolf Heart,Burning Oil,"17,50",15,1
+Wolf Heart,Chilling Oil,"14,00",15,2
+Wolf Heart,Damage Health,"10,00",1,3
+Wolf Heart,Frenzy,"11,00",10,4
+Yellow Mountain Flower,Constitution,"8,00",300,1
+Yellow Mountain Flower,Fortify Health,"4,80",600,2
+Yellow Mountain Flower,Fortify Restoration,"4,00",180,3
+Yellow Mountain Flower,Vulnerability,"12,00",30,4
